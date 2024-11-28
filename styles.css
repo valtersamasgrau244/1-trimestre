@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f7fa; /* Cor de fundo suave */
+}
+
+header {
+    background: #3b5998; /* Azul mais suave */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cor dourada ao passar o mouse */
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #ffffff; /* Fundo branco para destaque */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.inspiracao-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin-top: 20px;
+    border-left: 4px solid #3b5998;
+    padding-left: 15px;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #3b5998;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4f74b0; /* Azul mais claro ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+}
